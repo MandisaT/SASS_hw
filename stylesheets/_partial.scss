@@ -1,0 +1,25 @@
+// this is a partial 
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p::first-letter{
+	font-size:200%;
+	color:black;
+}
+
+// hovers over li only 
+
+li:hover{
+	background-color:red;
+}
+
+// highlight function until you click on the link
+a:link{
+	background-color:red;
+}

@@ -1,0 +1,57 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif; }
+
+p::first-letter {
+  font-size: 200%;
+  color: black; }
+
+li:hover {
+  background-color: red; }
+
+a:link {
+  background-color: red; }
+
+body {
+  background-color: #FF69B4;
+  text-align: center; }
+
+footer {
+  float: right; }
+
+img {
+  width: 20%; }
+
+.colm {
+  column-count: 2; }
+
+.border, .border2 {
+  border: 1px solid white;
+  padding: 10px;
+  color: white; }
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  color: #fff;
+  text-align: center;
+  background: #000; }
+
+.border2 {
+  background-color: black;
+  color: #FF69B4;
+  padding: 3px; }
+
+li::after {
+  content: " and she is awesome";
+  color: white;
+  font-weight: bold; }
+
+input:checked {
+  height: 50px;
+  width: 50px; }
+
+/*# sourceMappingURL=main.css.map */
